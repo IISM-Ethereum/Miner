@@ -1,16 +1,22 @@
-# Miner 
+# Miner
 
 
 
-## How to connect 
+## Pre-Requisite
 
-    sudo apt install openssh-client
+Install a ssh client of your choice, i.e.:
+
+    openssh-client (Linux)
+    built-in MacOS
+    Putty (Win)
+
+## How to connect to node
 
     ssh iism@172.22.73.230
 
-PW ist in drobox ;-) 
+PW will be distributed upon request.
 
-## Access running Miner Instance
+## Access running Miner instance
 
     geth attach ipc:/home/iism/ETH/EthereumPrivate/geth.ipc
 
@@ -30,12 +36,22 @@ PW ist in drobox ;-)
     	}
     }
 
-## Usage as Web-Server 
+## Start remote processes via SSH
+
+In order to start and keep a process running via SSH even after disconnecting, one can leverage the `screen` command as follows:
+
+    ssh iism@172.22.73.230
+    screen # starts a new screen session
+    # start any process, such as mining, nodemon, etc.
+
+Press `CTRL`+`a`, `d` to detach from the screen session and enter `exit` to exit the SSH session.
+
+When you want to resume that session, just connect again and enter `screen -r` (or additionally `-d` in case you still have an open connection elsewhere).
+
+## Usage as Web-Server
 
 ## Todo
 
-prozessse via ssh starten und im Hintergrund ablaufen lassen
-
-nodejs & nodemon installieren 
+nodejs & nodemon installieren
 
 git installieren
