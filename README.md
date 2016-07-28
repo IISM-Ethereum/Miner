@@ -104,7 +104,6 @@ show all screens. (ssh terminals with autonomously running processes)
 ```    
 3. detach from the screen session: `CTRL`+`a`, `d`
 
-**Note**: Server is only available from within the vpn
 
 ## Todo on remote computer
 
