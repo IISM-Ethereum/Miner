@@ -1,4 +1,4 @@
-# Miner
+# IISM - Private Blockchain
 
 In order to diburden private computers from the the CPU-intensive mining process, we have installed a miner at the IISM institute. It is accessible via ssh and ought to be online 24/7.
 
