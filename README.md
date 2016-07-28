@@ -26,7 +26,7 @@ PW will be distributed upon request.
 Note: Due to electricity costs and limited memory stop mining once nobody is working on the chain ;-) 
 In order to check whether miner is currently running:
 
-    eth.hashrate
+    eth.mining
 
 
 ## Access private chain 
