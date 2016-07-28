@@ -38,6 +38,11 @@ In order to get going initially you need to add so called bootstrap nodes (in ou
 
     admin.addPeer("enode://c831dab19841eed1d4fc925e8a5c8103309fec646750c45d4effb43a5c411da6b3f01280d7f1d4a8716989b556bfb3ad792ec0e8aaff74a7737bfd567f7e1d48@[172.22.73.230]:30307")
 
+## Start Command for the Node 
+
+    geth --port 30303 --rpc --rpcaddr "172.22.73.230" --rpcport 8545 --rpccorsdomain "http://172.22.73.230:8081" --datadir "/home/iism/ETH/EthereumPrivate/" --networkid 27 console
+    
+**Note**: rpcaddr "localhost" does not work for what ever reason ... 
 
 ## Genesis.json
 
@@ -54,6 +59,11 @@ In order to get going initially you need to add so called bootstrap nodes (in ou
        "0xd24901517c1a7ce6d6bbcc6bfd93b5547567cefb": {"balance":"1000000000000000000000000000000"}
     	}
     }
+## Connect Application to Blockchain 
+
+    web3 = new Web3();
+    web3.setProvider(new web3.providers.HttpProvider("http://172.22.73.230:8545"));
+    web3.eth.defaultAccount = web3.eth.coinbase;
 
 ## Start remote processes via SSH
 
