@@ -67,6 +67,16 @@ Press `CTRL`+`a`, `d` to detach from the screen session and enter `exit` to exit
 
 When you want to resume that session, just connect again and enter `screen -r` (or additionally `-d` in case you still have an open connection elsewhere).
 
+## Remote Controle
+
+list all processes: 
+
+        ps x
+   
+kill process 
+
+    kill -15 < pid-ID-number >
+    
 ## Usage as Web-Server
 
 ## Todo
