@@ -81,19 +81,36 @@ When you want to resume that session, just connect again and enter `screen -r` (
 
 list all processes: 
 
-        ps x
+    ps x
    
 kill process 
 
     kill -15 < pid-ID-number >
+
+show all screens. (ssh terminals with autonomously running processes)
+
+    screen -ls 
+
     
 ## Usage as Web-Server
+1. Create Folder and pull remote repository via git
 
-## Todo
+2. Create ssh terminal for nodejs server instance and run server. 
+```
+    ssh iism@172.22.73.230
+    screen -S myNodeJsServer
+    node MyServer.js 
+```    
+3. detach from the screen session: `CTRL`+`a`, `d`
 
-nodejs & nodemon installieren
+**Note**: Server is only available from within the vpn
 
-git installieren
+## Todo on remote computer
+
+install nodemon
+install mist 
+install vnc
+exchange graphic card 
 
 ### Authors
 Jonas-Taha El Sesiy (@elsesiy)
