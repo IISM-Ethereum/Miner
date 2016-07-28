@@ -60,7 +60,7 @@ In order to get going initially you need to add so called bootstrap nodes (in ou
        "0xd24901517c1a7ce6d6bbcc6bfd93b5547567cefb": {"balance":"1000000000000000000000000000000"}
     	}
     }
-## Connect Application to Blockchain 
+## Connect Application to Blockchain from within vpn
 
     web3 = new Web3();
     web3.setProvider(new web3.providers.HttpProvider("http://172.22.73.230:8545"));
