@@ -24,8 +24,7 @@ PW will be distributed upon request.
     geth attach ipc:/home/iism/ETH/EthereumPrivate/geth.ipc
     
 Note: Due to electricity costs and limited space stop mining once nobody is working on the chain ;-) 
-
-Check if hashrate is greater than zero to know whether miner is currently running
+In order to check whether miner is currently running:
 
     eth.hashrate
 
