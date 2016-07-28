@@ -77,5 +77,6 @@ git installieren
 
 ### Authors
 Jonas-Taha El Sesiy (@elsesiy)
+
 Magnus Gödde (@mgsgde)  
 
