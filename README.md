@@ -108,8 +108,11 @@ show all screens. (ssh terminals with autonomously running processes)
 ## Todo on remote computer
 
 install nodemon
+
 install mist 
+
 install vnc
+
 exchange graphic card 
 
 ### Authors
