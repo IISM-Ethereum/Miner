@@ -12,6 +12,8 @@ Install a ssh client of your choice, i.e.:
 
 ## How to connect to node
 
+Establish vpn connection to KIT network and connect via
+
     ssh iism@172.22.73.230
 
 PW will be distributed upon request.
