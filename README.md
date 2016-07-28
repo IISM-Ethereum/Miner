@@ -11,7 +11,7 @@ Install a ssh client of your choice, i.e.:
     built-in MacOS
     Putty (Win)
 
-## How to connect to node
+## How to connect to the node
 
 Establish vpn connection to KIT network and connect via
 
@@ -74,3 +74,8 @@ When you want to resume that session, just connect again and enter `screen -r` (
 nodejs & nodemon installieren
 
 git installieren
+
+### Authors
+Jonas-Taha El Sesiy (@elsesiy)
+Magnus Gödde (@mgsgde)  
+
