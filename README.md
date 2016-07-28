@@ -39,9 +39,10 @@ In order to get going initially you need to add so called bootstrap nodes (in ou
     admin.addPeer("enode://c831dab19841eed1d4fc925e8a5c8103309fec646750c45d4effb43a5c411da6b3f01280d7f1d4a8716989b556bfb3ad792ec0e8aaff74a7737bfd567f7e1d48@[172.22.73.230]:30307")
 
 ## Start Command for the Node 
-
+```    
+    geth --datadir "/home/USER/privateEthereum" init CustomGenesis.json
     geth --port 30303 --rpc --rpcaddr "172.22.73.230" --rpcport 8545 --rpccorsdomain "http://172.22.73.230:8081" --datadir "/home/iism/ETH/EthereumPrivate/" --networkid 27 console
-    
+```    
 **Note**: rpcaddr "localhost" does not work for what ever reason ... 
 
 ## Genesis.json
